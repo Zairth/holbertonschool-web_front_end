@@ -40,21 +40,22 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 }
 
 html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
+	scroll-behavior: smooth;
+	font-size: 62.5%;
 }
-
+  
 body {
-    color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
+	color: var(--text-color);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-medium);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-base);
 }
-
+  
 a:link {
-    color: var(--text-color);
-    text-decoration: none;
+	color: var(--text-color);
+	text-decoration: none;
+	font-style: normal;
 }
 
 a:visited {
@@ -64,30 +65,17 @@ a:visited {
 a:hover {
 	text-decoration: underline;
 }
-  
+
 a:active {
 	background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
-    display: none;
+	display: none;
 }
 
 .card-category {
-    color: var(--color-primary);
-}
-
-.section-tagline {
-    color: var(--color-primary);
-	font-family: var(--font-family-title);
-	text-transform: var(--section-tagline-transform);
-	font-weight: var(--font-weight-bold);
-}
-
-.container {
-	width: 960px;
-	margin-left: auto;
-    margin-right: auto;
+	color: var(--color-primary);
 }
 
 .section {
@@ -96,12 +84,11 @@ a:active {
 
 .section-header {
 	text-align: var(--section-header-align);
-    padding: var(--section-header-padding);
 }
 
 .section-body {
 	padding: var(--section-body-padding);
-}
+ }
 
 .section-footer {
 	padding: var(--section-footer-padding);
@@ -116,11 +103,25 @@ a:active {
 	color: var(--section-title-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
+.section-tagline {
+	color: var(--color-primary);
+	font-family: var(--font-family-title);
+	text-transform: var(--section-tagline-transform);
+	font-weight: var(--font-weight-bold);
 }
 
-.footer::selection {
-    padding: var(--section-footer-padding);
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+	font-weight: var(--font-weight-bold);
+}
+
+.footer {
+	padding: var(--footer-padding);
 }
