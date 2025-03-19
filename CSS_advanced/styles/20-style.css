@@ -44,7 +44,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
@@ -92,7 +92,7 @@ a:active {
 
 .section-header {
 	text-align: var(--section-header-align);
-    padding: var(--section-header-padding);
+	padding: var(--section-header-padding);
 }
 
 .section-body {
@@ -128,23 +128,23 @@ a:active {
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
+	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
 
 .navbar-menu {
-    float: right;
+	float: right;
 }
 
 .nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
 }
 
 .nav .nav-item {
-    font-family: var(--nav-item-font-family);
+	font-family: var(--nav-item-font-family);
 	font-weight: var(--nav-item-font-weight);
 	font-size: var(--nav-item-font-size);
 	letter-spacing: var(--nav-item-letter-spacing);
@@ -153,8 +153,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
+	display: block;
+	padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
