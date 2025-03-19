@@ -102,6 +102,13 @@ a:active {
 	background: var(--button-hover-background);
 }
 
+[data-section-theme="dark"] {
+	--text-color: var(--color-white);
+	--section-title-color: var(--color-white);
+	background-color: var(--color-black);
+	--button-color: var(--color-white);
+}
+
 .visually-hidden {
 	display: none;
 }
@@ -208,13 +215,6 @@ ul.row {
 [class^="col-"] {
 	float: left;
 	padding: 0.5rem;
-}
-
-[data-section-theme="dark"] {
-	--text-color: var(--color-white);
-	--section-title-color: var(--color-white);
-	background-color: var(--color-black);
-	--button-color: var(--color-white);
 }
 
 .card-services .card-title {
